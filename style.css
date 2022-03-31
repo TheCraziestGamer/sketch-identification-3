@@ -1,0 +1,89 @@
+#score{
+font-size:50px;
+color: red;
+font-family:'Times New Roman', Times, serif;
+
+}
+#timer{
+font-size: 50px;
+text-align: right;
+color: red;
+font-family:'Times New Roman', Times, serif;
+
+}
+
+#label{
+    color: red;
+font-family:'Times New Roman', Times, serif;
+}
+
+#confidence{
+    color: red;
+font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background:black;
+ 
+}
+
+h1{
+ color:red;   
+ background-color:cornsilk;
+}
+
+#show_sketch{
+float: right;
+}
+
+canvas{
+border: 5px solid white;
+border-radius: 20px;
+animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{box-shadow:1px 1px 38px grey;}
+to{box-shadow:1px 1px 38px white}
+
+}
+
+p{
+padding-top:10px;
+font-size: 25px;
+
+};   
+   
+   
+   h1{
+    color: blue;   
+    background-color:cornsilk;
+   }
+   
+   #show_sketch{
+   float: right;
+   }
+   
+   canvas{
+   border: 5px solid white;
+   border-radius: 20px;
+   animation-name: example;
+   animation-duration: 4s;
+   margin-top: 50px;
+   animation-iteration-count: infinite;
+   }
+   
+   @keyframes example{
+   from{box-shadow:1px 1px 38px grey;}
+   to{box-shadow:1px 1px 38px white}
+   
+   }
+   
+   p{
+   padding-top:10px;
+   font-size: 25px;
+   
+   }
